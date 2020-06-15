@@ -27,19 +27,27 @@ export default {
       title: 'Experience',
       experiences: [
         {
-          id: 1,
-          company: 'Penze',
-          position: 'Project Manager',
-          period: 'March, 2018 - Present',
+          id: 6,
+          company: 'Olist',
+          position: 'Front-end Developer',
+          period: 'May, 2020 - Present',
           description:
-            `- Managed the development team and new innovations projects.\n- Implemented project management techniques like PMBOK, SCRUM and AGILE principles.\n- Redesigned a new development workflow and business strategy.\n- Structured a new company core business to adapt to Digital Transformation.\n- Developed applications in ReactJS, Angular, VueJS and Laravel.`,
+            `Developed applications with Django and ReactJS`,
         },
         {
-          id: 2,
+          id: 5,
           company: 'Aidias',
           position: 'Freelancer',
           period: 'April, 2014 - Present',
           description: 'Developed applications and websites with PHP, ASP.Net, Javascript, jQuery, ReactJS, VueJS and Ionic.',
+        },
+        {
+          id: 4,
+          company: 'Penze',
+          position: 'Project Manager',
+          period: 'March, 2018 - May, 2020',
+          description:
+            `- Managed the development team and new innovations projects.\n- Implemented project management techniques like PMBOK, SCRUM and AGILE principles.\n- Redesigned a new development workflow and business strategy.\n- Structured a new company core business to adapt to Digital Transformation.\n- Developed applications in ReactJS, Angular, VueJS and Laravel.`,
         },
         {
           id: 3,
@@ -49,7 +57,7 @@ export default {
           description: 'Developed applications in PHP, Laravel, Javascript, Angular and Cordova.',
         },
         {
-          id: 4,
+          id: 2,
           company: 'Raízen S/A - Maracaí',
           position: 'Planning Analyst',
           period: 'October, 2011 - September, 2015',
@@ -57,7 +65,7 @@ export default {
             `- Implemented PMBOK techniques on Planning Department.\n- Managed the Planning Department.\n- Controlled projects’ costs and budgets, processes and information integrity.\n- Created internal procedures for continuous improvement of the company.`,
         },
         {
-          id: 5,
+          id: 1,
           company: 'Raízen S/A - Maracaí',
           position: 'Planning And Control Analyst',
           period: 'May, 2010 - October, 2010',
