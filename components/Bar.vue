@@ -12,9 +12,9 @@ export default {
   props: ['theme'],
   data: () => {
     const symbol = {
-      dark: '🌓',
+      dark: '🌙',
       light: '☀️',
-      dracula: '👿',
+      dracula: '🧛',
     };
 
     return {

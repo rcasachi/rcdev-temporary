@@ -51,25 +51,25 @@ export default {
       languages: [
         {
           id: 1,
-          imageSrc: 'http://www.worldometers.info/img/flags/small/tn_br-flag.gif',
+          imageSrc: require('~/assets/images/br-flag.png'),
           description: 'Portuguese',
           level: 'Native',
         },
         {
           id: 2,
-          imageSrc: 'http://www.worldometers.info/img/flags/small/tn_uk-flag.gif',
+          imageSrc: require('~/assets/images/uk-flag.png'),
           description: 'English',
           level: 'Advanced',
         },
         {
           id: 3,
-          imageSrc: 'http://www.worldometers.info/img/flags/small/tn_fr-flag.gif',
+          imageSrc: require('~/assets/images/fr-flag.png'),
           description: 'French',
           level: 'Intermediary',
         },
         {
           id: 4,
-          imageSrc: 'http://www.worldometers.info/img/flags/small/tn_sp-flag.gif',
+          imageSrc: require('~/assets/images/sp-flag.png'),
           description: 'Spanish',
           level: 'Intermediary',
         },
@@ -88,17 +88,17 @@ export default {
         {
           title: 'Uso de Programação Orientada a Aspecto no Desenvolvimento de Aplicações que utilizam conceitos de Tecnologia Adaptativa',
           resource: 'Workshop de Tecnologia Adaptativa (WTA) - Universidade de São Paulo (USP) | Jan-2012',
-          link: 'http://labs.rafaelcasachi.eti.br/old/uploads/arquivos/paper-usp.pdf',
+          link: '/papers/paper-usp.pdf',
         },
         {
           title: 'Aplicação dos Conceitos de Programação Orientada a Aspecto no Desenvolvimento de Sistemas de Informação',
           resource: 'Universidade do Norte do Paraná (UNOPAR) | Oct-2011',
-          link: 'http://labs.rafaelcasachi.eti.br/old/uploads/arquivos/paper-unopar.pdf',
+          link: '/paper/paper-unopar.pdf',
         },
         {
           title: 'Utilização do Paradigma de Programação Orientado a Aspecto na Otimização do Desenvolvimento de Softwares',
           resource: 'Fórum Científico - Fundação Educacional do Município de Assis (FEMA) | Sep-2011',
-          link: 'http://labs.rafaelcasachi.eti.br/old/uploads/arquivos/paper-fema.pdf',
+          link: '/papers/paper-fema.pdf',
         },
       ],
     }

@@ -13,9 +13,12 @@ export default {
 
 <style scoped>
 div {
-  display: inline-block;
-  margin-right: 16px;
-  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  margin-bottom: 16px;
   text-align: center;
 }
 img {

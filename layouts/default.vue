@@ -67,12 +67,12 @@ export default {
 :root {
   --color-bg-normal: #fff;
   --color-bg-accent: #f6f1ff;
-  --color-text-normal: #111;
-  --color-text-accent: #232323;
+  --color-text-normal: #323232;
+  --color-text-accent: #121212;
   --color-primary-normal: #5431a2;
   --color-primary-accent: #432781;
-  --color-secondary-normal: #607b8d;
-  --color-secondary-accent: #9e9eae;
+  --color-secondary-normal: #506bad;
+  --color-secondary-accent: #766ead;
   --color-danger-normal: #f44336;
   --color-danger-accent: #ff5722;
   --color-success-normal: #4caf50;
@@ -81,26 +81,28 @@ export default {
   --color-info-accent: #2196f3;
   --color-warning-normal: #ff9800;
   --color-warning-accent: #ffc107;
-  --filter-image: sepia(1);
+  --filter-image: hue-rotate(340deg) sepia(.4);
 }
 
 [data-theme="dracula"] {
   --color-bg-normal: #151320;
-  --color-bg-accent: #22212c;
+  --color-bg-accent: #282a36;
   --color-text-normal: #f8f8f2;
-  --color-text-accent: #f2f1ec;
+  --color-text-accent: #c2c1bc;
   --color-primary-normal: #6f669c;
   --color-primary-accent: #403b5b;
-  --color-secondary-normal: #44414c;
+  --color-secondary-normal: #6272a4;
   --filter-image: grayscale(.75);
 }
 
 [data-theme="dark"] {
-  --color-bg-normal: #131217;
+  --color-bg-normal: #121212;
   --color-bg-accent: #191a1f;
-  --color-text-normal: #aaa;
+  --color-text-normal: #dedede;
   --color-text-accent: #5b5a5f;
-  --filter-image: grayscale(.85);
+  --color-primary-normal: #6441c2;
+  --color-primary-accent: #6347a1;
+  --filter-image: grayscale(.85) sepia(.1);
 }
 
 html {

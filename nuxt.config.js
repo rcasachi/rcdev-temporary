@@ -22,10 +22,10 @@ export default {
       { hid: 'robots', name: 'robots', content: 'index, follow' },
 
       { hid: 'og:site_name', name: 'og:site_name', content: 'Rafael Casachi' },
-      { hid: 'og:locale', name: 'og:locale', content: 'pt_BR' },
+      { hid: 'og:locale', name: 'og:locale', content: 'en' },
       { hid: 'og:title', name: 'og:title', content: 'Rafael Casachi' },
       { hid: 'og:description', name: 'og:description', content: 'Bem vindo ao meu site. Empreendedorismo, Life Hacks e Viagens.' },
-      { hid: 'og:image', name: 'og:image', content: '~/assets/images/me.png' },
+      { hid: 'og:image', name: 'og:image', content: '/_nuxt/assets/images/atacama.png' },
       { hid: 'og:url', name: 'og:url', content: 'https://rafaelcasachi.dev/' },
       { hid: 'og:type', name: 'og:type', content: 'article' },
 
@@ -34,7 +34,7 @@ export default {
       { hid: 'twitter:creator', name: 'twitter:creator', content: '@rcasachi' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'Rafael Casachi' },
       { hid: 'twitter:description', name: 'twitter:description', content: 'Bem vindo ao meu site. Empreendedorismo, Life Hacks e Viagens.' },
-      { hid: 'twitter:image', name: 'twitter:image', content: '~/assets/images/me.png' },
+      { hid: 'twitter:image', name: 'twitter:image', content: '/_nuxt/assets/images/atacama.png' },
 
       { hid: 'name', itemprop: 'name', content: 'Rafael Casachi' },
       { hid: 'description', itemprop: 'description', content: 'Bem vindo ao meu site. Empreendedorismo, Life Hacks e Viagens.' },
